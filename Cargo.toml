@@ -5,8 +5,10 @@ authors = ["Heitor de Bittencourt <heitorpbittencourt@gmail.com>"]
 license = "GPL-2.0-only"
 description = "Like yes, but different"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+readme = "README.md"
+repository = "https://github.com/heitorPB/no"
+keywords = ["cli"]
+categories = ["command-line-utilities"]
 
 [dependencies]
 clap = { version = "4.0.18", features = ["derive"] }
